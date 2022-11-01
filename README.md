@@ -4,6 +4,8 @@ Generates fake target images for testing our computer vision.
 Generates png image outputs with transparency of the targets and many configurations. Also provides a metadata json.
 
 TODO:
+- FIX STAR TEMPLATE
+- Plus, semi-circle, and quarter circle needed
 - Create SVG Templates for Each Shape
 - Randomize SVG Data
 - Output to png, output randomization data to json
