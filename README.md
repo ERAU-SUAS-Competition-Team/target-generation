@@ -13,6 +13,7 @@ TODO:
 RAER SUAS 2023
 
 Contributors:
-- Thomas Pasfield
+- tpasfieldERAU
+- meowsome
 
 Email RAERsuas on gmail to request changes or other data.
