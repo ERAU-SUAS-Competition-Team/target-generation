@@ -1,21 +1,19 @@
 # target-generation
-Generates fake target images for testing our computer vision.
+__Generates fake target images for testing our computer vision.__
 
-Generates png image outputs with transparency of the targets and many configurations. Also provides a metadata json.
+Generates randomized png images for use in testing and developing our first competition vision system. Can be operated through basic runs, or can be used in a command line interface. (Plans)
 
-TODO:
-- FIX STAR TEMPLATE
-- Plus, semi-circle, and quarter circle needed
-- Create SVG Templates for Each Shape
+__TODO:__
 - Randomize SVG Data
 - Output to png, output randomization data to json
 - Create CLI
 - Determine if this repo should also overlay on satellite data or not
 
-RAER SUAS 2023
+---
+__RAER SUAS 2023__
 
 Contributors:
 - tpasfieldERAU
 - meowsome
 
-Email RAERsuas on gmail to request changes or other data.
+*Email RAERsuas on gmail to request changes or other data.*
