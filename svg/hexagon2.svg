@@ -2,7 +2,6 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
 <path d="M125,33.494l250,-0l125,216.506l-125,216.506l-250,0l-125,-216.506l125,-216.506Z" style="fill:#000000;"/>
-<text x="109.066px" y="410.152px" style="fill:#FFFFFF;font-family:'OverpassMono-Bold', 'Overpass Mono', monospace;font-weight:700;font-size:457.578px;">
-    A
+<text x="109.066px" y="410.152px" style="fill:#FFFFFF;font-family:'Noto Mono';font-weight:700;font-size:457.578px;">A
 </text>
 </svg>
