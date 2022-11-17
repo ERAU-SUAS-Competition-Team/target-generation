@@ -1,3 +1,7 @@
+""" 
+TODO Add functional formatting and set up parameters in order to control outputs better
+"""
+
 from cairosvg import svg2png
 import os
 import random as r
