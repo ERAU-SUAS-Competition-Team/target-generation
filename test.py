@@ -36,7 +36,8 @@ while iteration < cap:
         
         out = open(f"./buffer.svg", "w")
         out.write(img)
-        
+        out.close()
+         
         # Reorganize in order to store the state of the generator, in order to save
         # metadata for training an object model
         
