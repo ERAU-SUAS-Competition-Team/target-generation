@@ -2,5 +2,5 @@
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
 <svg width="100%" height="100%" viewBox="0 0 500 500" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" xml:space="preserve" style="fill-rule:evenodd;clip-rule:evenodd;stroke-linejoin:round;stroke-miterlimit:2;">
 <path d="M380,89.848l-260,-0l-120,320.304l500,0l-120,-320.304Z" style="fill:#000000;"/>
-<text x="50%" y="56%" font-size="300px" font-weight="600" dominant-baseline="middle" text-anchor="middle" style="fill:#FFFFFF;font-family:'Noto Mono', 'Noto Sans Mono'">A</text>
+<text x="50%" y="56%" font-size="300px" font-weight="700" dominant-baseline="middle" text-anchor="middle" style="fill:#FFFFFF;font-family:'Noto Mono', 'Noto Sans Mono'">A</text>
 </svg>
