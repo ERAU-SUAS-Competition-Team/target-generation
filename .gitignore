@@ -133,3 +133,5 @@ images/
 images/*
 
 png/*
+buffer.svg
+attributes/*

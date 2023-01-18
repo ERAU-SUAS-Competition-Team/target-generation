@@ -1,7 +1,7 @@
 # target-generation
 __Generates fake target images for testing our computer vision.__
 
-CAN ONLY RUN ON UNIX SYSTEMS (Unless you can magically get Cairo to work on Windows)
+Requires Inkscape to be installed on the host system. This code is made for Inkscape 1.1.2. As they have ripped out large features before, there is no guarantee that this code will work on future versions, and it definitely won't work on version that come before 1.1 as a whole. Make sure that Inkscape is installed in a way that allows for use of its CLI functionality.
 
 Generates randomized png images for use in testing and developing our first competition vision system. Can be operated through basic runs, or can be used in a command line interface. (Plans)
 
