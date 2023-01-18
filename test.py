@@ -2,7 +2,6 @@
 TODO Add functional formatting and set up parameters in order to control outputs better
 """
 
-from cairosvg import svg2png
 import os
 import random as r
 
@@ -25,4 +24,12 @@ for file in os.listdir("svg"):
     img = img.replace("A", alphanumerics[ r.randint(0,35) ])
     img = img.replace('#000000', shape_color, -1)
     img = img.replace('#FFFFFF', text_color, -1)
-    svg2png(bytestring=img, write_to=f'./png/{file.replace(".svg","")}.png')
+    
+    out = open(f"./buffer.svg", "w")
+    out.write(img)
+    
+    # Reorganize in order to store the state of the generator, in order to save
+    # metadata for training an object model
+    
+    os.system("inkscape --export-type=\"png\" --export-filename=\"./png/01.png\"buffer.svg")
+    # svg2png(bytestring=img, write_to=f'./png/{file.replace(".svg","")}.png')
