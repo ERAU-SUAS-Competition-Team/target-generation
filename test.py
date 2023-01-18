@@ -13,6 +13,10 @@ color_list = ['#FFF8DC', '#000000', '#A9A9A9', '#DC143C', '#0000CD', '#32CD32', 
 alphanumerics = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
 
 for file in os.listdir("svg"):
+    # Check for buffer, delete if it exists
+    if os.path.exists("./buffer.svg"):
+        os.remove("./buffer.svg")
+    
     shape_color = color_list[r.randint(0,9)]
     while True:
         text_color = color_list[r.randint(0,9)]
@@ -31,5 +35,5 @@ for file in os.listdir("svg"):
     # Reorganize in order to store the state of the generator, in order to save
     # metadata for training an object model
     
-    os.system("inkscape --export-type=\"png\" --export-filename=\"./png/01.png\"buffer.svg")
+    os.system(f'inkscape --export-type="png" --export-filename="./png/{file.replace(".svg","")}.png" buffer.svg')
     # svg2png(bytestring=img, write_to=f'./png/{file.replace(".svg","")}.png')
