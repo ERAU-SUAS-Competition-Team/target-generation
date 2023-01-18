@@ -40,7 +40,7 @@ while iteration < cap:
         # Reorganize in order to store the state of the generator, in order to save
         # metadata for training an object model
         
-        os.system(f'inkscape --export-type="png" --export-filename="./png/{iteration}.png" buffer.svg')
+        os.system(f'dbus-run-session inkscape --export-type="png" --export-filename="./png/{iteration:5d}.png" buffer.svg')
         
         iteration += 1
         # svg2png(bytestring=img, write_to=f'./png/{file.replace(".svg","")}.png')
