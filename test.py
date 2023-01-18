@@ -1,5 +1,6 @@
 """ 
 TODO Add functional formatting and set up parameters in order to control outputs better
+TODO Add metadata output for training
 """
 
 import os
@@ -44,4 +45,3 @@ while iteration < cap:
         os.system(f'dbus-run-session inkscape --export-type="png" --export-filename="./png/{iteration:5d}.png" buffer.svg')
         
         iteration += 1
-        # svg2png(bytestring=img, write_to=f'./png/{file.replace(".svg","")}.png')
