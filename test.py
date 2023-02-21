@@ -6,6 +6,9 @@ TODO Add metadata output for training
 import os
 import random as r
 
+if not os.path.exists('./png/'):
+    os.mkdir('./png/')
+
 # COLORS
 # white, black, gray, red, blue, green, yellow, purple, brown, orange
 color_list = ['#FFF8DC', '#000000', '#A9A9A9', '#DC143C', '#0000CD', '#32CD32', '#FFD700', '#9400D3', '#A0522D', '#FF8C00'];
