@@ -135,3 +135,6 @@ images/*
 png/*
 buffer.svg
 attributes/*
+
+sat_in/
+sat_in/*
