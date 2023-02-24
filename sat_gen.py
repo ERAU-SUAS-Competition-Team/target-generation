@@ -10,8 +10,6 @@ import os
 import random as r
 import cv2 as cv
 # This is just for diagnostics
-import keyboard
-import time
 
 if not os.path.exists('./sat_out/'):
     os.mkdir('./sat_out/')
@@ -21,7 +19,8 @@ def genSquare(mat, res, size):
     img = mat
     x = int(r.randint(0, res[0]-(size + 1)))
     y = int(r.randint(0, res[1]-(size + 1)))    
-    buf = img[x:x+size, y:y+size]
+    buf = img[y:y+size, x:x+size]
+    # print('Image ' + str(n) + ': ' + str(x) + ', ' + str(y))
     return buf
 
 
@@ -29,16 +28,12 @@ img = cv.imread('./sat_in/stmary.png')
 wid = img.shape[1]
 hei = img.shape[0]
 res = [wid, hei]
+# print(str(wid) + ' ' + str(hei))
 
-while True:
-    try:
-        if keyboard.is_pressed('q'):
-            break
-        buf = genSquare(img, res, 60)
-        cv.imshow('Name', buf)
-        time.sleep(5)
-    except:
-        break
+n=0
+while n < 25:
+    buf = genSquare(img, res, 60)
+    cv.imwrite('./sat_out/' + str(n) + '.png' , buf)
+    n+=1
 
-
-
+print("complete.")

@@ -133,8 +133,11 @@ images/
 images/*
 
 png/*
+png/
 buffer.svg
 attributes/*
 
 sat_in/
 sat_in/*
+sat_out/
+sat_out/*
