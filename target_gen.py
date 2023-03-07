@@ -20,6 +20,24 @@ alphanumerics = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890'
 cap = 250
 iteration = 0
 
+for file in os.listdir("svg"):
+    print(file)
+targets =  ['circle.svg',
+            'hexagon1.svg',
+            'hexagon2.svg',
+            'octagon1.svg',
+            'octagon2.svg',
+            'pentagon.svg',
+            'plus.svg',
+            'quartercircle.svg',
+            'rect_h.svg',
+            'rect_v.svg',
+            'semicircle.svg',
+            'septagon.svg',
+            'square.svg',
+            'star.svg',
+            'trapezoid.svg']
+"""
 while iteration < cap:
     for file in os.listdir("svg"):
         # Check for buffer, delete if it exists
@@ -48,3 +66,4 @@ while iteration < cap:
         os.system(f'dbus-run-session inkscape --export-type="png" --export-filename="./png/{iteration:5d}.png" buffer.svg')
         
         iteration += 1
+"""        
